@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--@+id 는 id를 추가하겠다는 의미-->
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnA"
+        android:textSize="30dp"
+        android:text="aaaaaaaaaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignBaseline="@id/btnA"
+        android:layout_toLeftOf="@id/btnA"
+        android:text="b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
