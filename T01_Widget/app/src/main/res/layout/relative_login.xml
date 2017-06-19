@@ -14,7 +14,7 @@
         <TextView
             android:id="@+id/textA"
             android:textSize="30dp"
-            android:text="ID1    : "
+            android:text="ID    : "
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText
