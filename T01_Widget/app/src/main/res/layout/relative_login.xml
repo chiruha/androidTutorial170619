@@ -15,6 +15,8 @@
             android:id="@+id/textA"
             android:textSize="30dp"
             android:text="ID    : "
+            android:typeface="sans"
+            android:textColor="#c6009edc"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText
@@ -30,7 +32,9 @@
         <TextView
             android:id="@+id/textB"
             android:textSize="30dp"
-            android:text="PW : "
+            android:typeface="serif"
+            android:textColor="#da380099"
+            android:text="PW  : "
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText
@@ -39,10 +43,12 @@
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <Button
+        android:textColor="#c6ed1a84"
         android:layout_marginTop="20dp"
         android:layout_below="@id/layoutB"
         android:layout_centerInParent="true"
         android:text="Login"
+        android:typeface="monospace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
