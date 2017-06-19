@@ -43,11 +43,13 @@
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <Button
+        android:background="#8ef9ff55"
         android:textColor="#c6ed1a84"
         android:layout_marginTop="20dp"
         android:layout_below="@id/layoutB"
         android:layout_centerInParent="true"
-        android:text="Login"
+        android:text="Login!!"
+        android:textSize="30dp"
         android:typeface="monospace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
